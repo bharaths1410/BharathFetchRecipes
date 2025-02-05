@@ -35,7 +35,7 @@ class BFRecipeViewModelTests: XCTestCase {
     }
     
     func testImageCaching() async {
-        let cache = ImageCache()
+        let cache = BFImageCache()
         let testImage = UIImage(systemName: "photo")!
         
         cache.set(testImageURL, testImage)
